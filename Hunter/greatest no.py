@@ -1,6 +1,7 @@
-no1=50
-no2=70
-no3=100
+
+no1=int(input("enter the 1st number:"))
+no2=int(input("enter the 2nd number:"))
+no3=int(input("enter the 3rd number:"))
 if (no1 >= no2) and (no1 >= no3):
    largest = no1
 elif (no2 >= no1) and (no2 >= no3):
@@ -9,3 +10,5 @@ else:
    largest = no3
 
 print("The largest number between",no1,",",no2,"and",no3,"is",largest)
+
+
