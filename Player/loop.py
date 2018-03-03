@@ -1,0 +1,3 @@
+a=("hello")
+for a in range(5):
+   print("hello")
