@@ -1,9 +1,9 @@
-a=int(input())
-b=int(input())
-if(a and b<=1000):
- for n in range(a,b):
+x=int(input())
+y=int(input())
+if(x and y<=1000):
+ for n in rang (x,y):
   if((n%2)!=0):
-   if(n>a):
+   if(n>x):
     print(n)
 else:
     print("no")
